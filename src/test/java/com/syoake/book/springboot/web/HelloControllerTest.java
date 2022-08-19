@@ -39,7 +39,7 @@ public class HelloControllerTest {
                 get("/hello/dto")
                         .param("name", name)
                         .param("amount", String.valueOf(amount)))
-                .andExpect((status().isOk())
+                .andExpect(status().isOk())
                 .andExpect(jsonPath("$.name", is(name)))
                 .andExpect(jsonPath("$.amount", is(amount)));
     }
