@@ -1,6 +1,6 @@
 package com.seoyoee.book.springboot.web;
 
-import com.seoyoee.book.springboot.service.PostsService;
+import com.seoyoee.book.springboot.service.posts.PostsService;
 import com.seoyoee.book.springboot.web.dto.PostsResponseDto;
 import com.seoyoee.book.springboot.web.dto.PostsSaveRequestDto;
 import com.seoyoee.book.springboot.web.dto.PostsUpdateRequestDto;
