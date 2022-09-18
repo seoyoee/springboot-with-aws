@@ -1,12 +1,20 @@
 plugins {
+<<<<<<< HEAD
 	id 'org.springframework.boot' version '2.6.11'
+=======
+	id 'org.springframework.boot' version '2.7.2'
+>>>>>>> c29b8c117d1fe8fd85b68aa623576ff9043b9e98
 	id 'io.spring.dependency-management' version '1.0.12.RELEASE'
 	id 'java'
 }
 
 group = 'com.syoake.book'
 version = '0.0.1-SNAPSHOT'
+<<<<<<< HEAD
 sourceCompatibility = '11'
+=======
+sourceCompatibility = 1.8
+>>>>>>> c29b8c117d1fe8fd85b68aa623576ff9043b9e98
 
 repositories {
 	mavenCentral()
@@ -26,8 +34,11 @@ dependencies {
 	implementation("org.mariadb.jdbc:mariadb-java-client")
 	implementation('com.h2database:h2') // 인메모리 관계형 데이터베이스
 
+<<<<<<< HEAD
 	implementation('org.springframework.boot:spring-boot-starter-mustache')
 
+=======
+>>>>>>> c29b8c117d1fe8fd85b68aa623576ff9043b9e98
 	testImplementation('org.springframework.boot:spring-boot-starter-test')
 }
 
